@@ -1,0 +1,79 @@
+.login-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.login-box {
+  background: white;
+  border-radius: 20px;
+  padding: 40px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+}
+
+.login-title {
+  font-size: 2.5rem;
+  color: #667eea;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.login-subtitle {
+  color: #666;
+  margin-bottom: 30px;
+  font-size: 1.1rem;
+}
+
+.oauth-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.oauth-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 14px 20px;
+  border: 2px solid #e0e0e0;
+  border-radius: 10px;
+  background: white;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  color: #333;
+}
+
+.oauth-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.google-btn:hover {
+  border-color: #4285F4;
+  color: #4285F4;
+}
+
+.facebook-btn:hover {
+  border-color: #1877F2;
+  color: #1877F2;
+}
+
+.github-btn:hover {
+  border-color: #333;
+  background: #333;
+  color: white;
+}
+
+.oauth-icon {
+  width: 24px;
+  height: 24px;
+}
+
